@@ -50,7 +50,7 @@ export const useData = () => {
 
   const [inicio, setInicio] = React.useState(getDate(14))
   const [final, setFinal] = React.useState(getDate(0))
-  const {data, error, loading} = useFetch<Venda[]>(`https://data.origamid.dev/vendas/?inicio=${inicio}&final=${final}`)
+  const {data, error, loading} = useFetch<IVenda[]>(`https://data.origamid.dev/vendas/?inicio=${inicio}&final=${final}`)
 
   // console.log(data)
 
