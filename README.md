@@ -1,27 +1,36 @@
-# React + TypeScript + Vite
+# Fintech Dashboard 📊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao Fintech Dashboard, a sua ferramenta completa para o gerenciamento de vendas e análise de dados financeiros. Este projeto React com TypeScript e Vite utiliza requisições de API para fornecer informações detalhadas e gráficos intuitivos para otimizar suas estratégias de vendas.
 
-Currently, two official plugins are available:
+## Recursos Principais
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dashboard Intuitivo:** Visualize dados de vendas em um painel fácil de usar, projetado para oferecer insights imediatos.
 
-## Expanding the ESLint configuration
+- **Gráficos Dinâmicos:** Explore gráficos interativos que detalham o desempenho de vendas ao longo do tempo, permitindo análises profundas para otimizar suas estratégias.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Filtragem por Data:** Analise o desempenho de vendas em períodos específicos, facilitando a compreensão das tendências e variações.
 
-- Configure the top-level `parserOptions` property like this:
+- **Integração com API:** Faça requisições à API para garantir que seus dados estejam sempre atualizados e precisos.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Como Iniciar
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone este repositório.
+2. Instale as dependências usando `npm install`.
+3. Configure as variáveis de ambiente necessárias para a conexão com a API.
+4. Inicie o servidor de desenvolvimento com `npm start`.
+
+## Uso da API
+
+Certifique-se de configurar as informações da API corretamente no arquivo de configuração. Consulte a documentação da API para obter mais detalhes sobre os endpoints disponíveis.
+
+## Acesso ao Fintech Dashboard
+
+Acesse o Fintech Dashboard [aqui](https://fintech-mu.vercel.app/) para explorar o painel de vendas e análise financeira.
+
+## Contribuição
+
+Sinta-se à vontade para contribuir para o desenvolvimento do Fintech Dashboard. Todas as contribuições são bem-vindas!
+
+---
+
+Pronto para impulsionar suas análises de vendas? Explore o Fintech Dashboard e alcance novos patamares de eficiência! 💼🚀
